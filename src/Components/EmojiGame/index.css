@@ -1,0 +1,25 @@
+/* Write your code here. */
+.app-container {
+  background: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.emoji-game-body {
+  flex-grow: 1;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emojis-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  list-style-type: none;
+  padding: 0;
+  max-width: 900px;
+  width: 100%;
+}
