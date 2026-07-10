@@ -2,6 +2,7 @@
 .app-container {
   background: linear-gradient(to right, #9796f0, #fbc7d4);
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -22,4 +23,33 @@
   padding: 0;
   max-width: 900px;
   width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .emojis-list {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .emoji-game-body {
+    padding: 24px 16px;
+  }
+
+  .emojis-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .emoji-btn {
+    width: 96px;
+    height: 96px;
+    padding: 16px;
+  }
+
+  .emoji-icon {
+    width: 64px;
+    height: 64px;
+  }
 }
