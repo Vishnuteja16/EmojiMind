@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# 😄 EmojiMind
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**EmojiMind** is a fun and simple memory-based emoji clicking game. Test your memory by clicking each emoji only once — click a repeated emoji and it's game over!
 
-## Available Scripts
+🔗 **Live Demo:** [emojimind.ccbp.tech](https://emojimind.ccbp.tech/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎮 How to Play
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. You'll see a grid of colorful emojis.
+2. Click on any emoji to score a point.
+3. Each time you click, the emojis shuffle/rearrange on the board.
+4. Keep clicking **new** emojis you haven't clicked before to increase your score.
+5. If you accidentally click an emoji you've **already clicked**, the game ends — **You Lose!**
+6. Try to click all emojis without repeating to win and beat your **Top Score**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🧠 Simple memory-based gameplay — fun and addictive
+- 🎯 Live score tracker and top score (high score) tracker
+- 🎨 Clean, colorful gradient UI with emoji tiles
+- 🔁 "Play Again" option after losing, to retry instantly
+- 📱 Responsive design for different screen sizes
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🖼️ Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Gameplay Screen**
+Displays the emoji grid along with the current score and top score.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Gameplay Screenshot](./screenshots/gameplay.png)
 
-### `npm run eject`
+**Game Over Screen**
+Shown when a duplicate emoji is clicked, displaying the final score with a "Play Again" button.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Game Over Screenshot](./screenshots/gameover.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React.js** — Frontend framework
+- **CSS** — Styling
+- **JavaScript (ES6+)** — Game logic
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Getting Started (Run Locally)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone the repository:
 
-### Code Splitting
+```
+git clone https://github.com/Vishnuteja16/EmojiMind.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Navigate into the project folder:
 
-### Analyzing the Bundle Size
+```
+cd EmojiMind
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies:
 
-### Making a Progressive Web App
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Start the development server:
 
-### Advanced Configuration
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The app will run locally at:
 
-### Deployment
+```
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📂 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+EmojiMind/
+├── public/
+├── screenshots/
+│   ├── gameplay.png
+│   └── gameover.png
+├── src/
+│   ├── Components/
+│   │   ├── EmojiCard/
+│   │   ├── EmojiGame/
+│   │   ├── NavBar/
+│   │   └── WinOrLoseCard/
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 📄 License
+
+This project is open source and available for learning purposes.
+
+---
+
+### 👨‍💻 Author
+
+Made with ❤️ by [Vishnuteja16](https://github.com/Vishnuteja16)
